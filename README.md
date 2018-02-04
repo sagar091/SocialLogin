@@ -12,6 +12,8 @@ Key Hash : MAg9IEFG2QitM24lmZwZ6+mWzqI=
 ============================================
 
 Google
+
 keytool -exportcert -keystore "C:\Users\Sagar\.android\debug.keystore" -list -v
+
 SHA1 : 30:08:3D:20:41:46:D9:08:AD:33:6E:25:99:9C:19:EB:E9:96:CE:A2
 
