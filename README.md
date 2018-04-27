@@ -4,7 +4,7 @@ Facebook
 App Id : 327031817795722
 
 Facebook      
-keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Sagar\.android\debug.keystore" | "E:\Software\openssl-1.0.2j-fips-x86_64\OpenSSL\bin\openssl.exe" sha1 -binary | "E:\Software\openssl-1.0.2j-fips-x86_64\OpenSSL\bin\openssl.exe" base64
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Sagar\\.android\debug.keystore" | "E:\Software\openssl-1.0.2j-fips-x86_64\OpenSSL\bin\openssl.exe" sha1 -binary | "E:\Software\openssl-1.0.2j-fips-x86_64\OpenSSL\bin\openssl.exe" base64
 
 Key Hash : MAg9IEFG2QitM24lmZwZ6+mWzqI=
 
