@@ -8,11 +8,6 @@ keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Sagar\\.android\d
 
 Key Hash : MAg9IEFG2QitM24lmZwZ6+mWzqI=
 
-	social_id = profile.getString("id");
-	String email = profile.getString("email");
-	String fName = profile.getString("name").split(" ")[0];
-	String lName = profile.getString("name").split(" ")[1];
-
 ============================================
 
 Google
@@ -20,22 +15,3 @@ Google
 keytool -exportcert -keystore "C:\Users\Sagar\\.android\debug.keystore" -list -v
 
 SHA1 : 30:08:3D:20:41:46:D9:08:AD:33:6E:25:99:9C:19:EB:E9:96:CE:A2
-
-
-	GoogleSignInAccount acct = GoogleSignIn.getLastSignedInAccount(getActivity());
-
-	if (acct != null) {
-
-		String personName = acct.getDisplayName();
-	
-		String personGivenName = acct.getGivenName();
-	
-		String personFamilyName = acct.getFamilyName();
-	
-		String personEmail = acct.getEmail();
-	
-		String personId = acct.getId();
-	
-		Uri personPhoto = acct.getPhotoUrl();
-	
-	}
