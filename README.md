@@ -8,6 +8,10 @@ keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Sagar\\.android\d
 
 Key Hash : MAg9IEFG2QitM24lmZwZ6+mWzqI=
 
+	social_id = profile.getString("id");
+	String email = profile.getString("email");
+	String fName = profile.getString("name").split(" ")[0];
+	String lName = profile.getString("name").split(" ")[1];
 
 ============================================
 
